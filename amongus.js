@@ -43,7 +43,7 @@ window.addEventListener('click', function(q){
 function winCheck(){
     if(clicks == 100 && printed!=true){
         total();
-        var text = new Text("You win! CPS: " + Math.round(100/time))
+        var text = new Text("You win! CPS: " + (Number.parseFloat(100/time).toFixed(1)))
         text.setPosition(getWidth()/2 - (text.getWidth()/2), getHeight()/2 + (text.getHeight()/2))
         add(text)
         printed = true

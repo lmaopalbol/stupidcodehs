@@ -1,4 +1,4 @@
-
+document.addEventListener("DOMContentLoaded", () => {
 var requiredClicks = 100 + 14
 var movement = getWidth()/requiredClicks
 var rect = new Rectangle(50,50)
@@ -57,3 +57,4 @@ function total(){
 
     time = tot    
 }
+});

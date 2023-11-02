@@ -1,3 +1,4 @@
+
 var requiredClicks = 100 + 14
 var movement = getWidth()/requiredClicks
 var rect = new Rectangle(50,50)
@@ -8,7 +9,7 @@ var startTime;
 
 function start(){
     makeBlock();
-    setTimer(winCheck, 40)
+    setTimer(winCheck, 100)
 }
 
 function makeBlock(){
